@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="my-style.css">
+    <link rel="icon" href="icons/book.svg">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="gsap/gsap.min.js" defer></script>
+    <script src="gsap/ScrollSmoother.min.js" defer></script>
+    <script src="gsap/ScrollTrigger.min.js" defer></script>
+
+    <script src="my-script.js" defer></script>
+    <title>Arch</title>
+</head>
+<body id="#body">
+
+<div id="smooth-wrapper"> 
+        <div id="smooth-container"> 
+            <main id="main">
+                <header>
+                    <div class="icons">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+
+                    <h1>
+                        <a href="#" style="color: #fff;" id="name">ARCHITAA</a>
+                    </h1>
+
+                    <div class="header-menu">
+
+                    </div>
+                </header>
+
+                <div class="head-page">
+                    <h1>Architecture Studio</h1>
+
+                    <div class="buttons">
+                        <button>
+                            Next
+                        </button>
+
+                        <button>
+                            Prev
+                        </button>
+                    </div>
+
+                    <img src="./imgs/main-img.png">
+                </div>
+
+
+            </main>
+
+            <section class="dna">
+                <div class="dna-inner">
+                    <img src="./imgs/dna-img.png" alt="" data-aos="fade-up">
+
+                    <h1 class="dna-head_txt">Our DNA</h1>
+
+                    <div class="dna-txt">
+                        <p data-aos="fade-up">
+                            Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies velit 
+                            elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut suspendisse viverra ornare sit venenatis
+                        </p>
+
+                        <h3 data-aos="fade-up">
+                            Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies velit 
+                        </h3>
+
+                        <button>
+                            Read More
+                        </button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="works">
+                <h1 class="works-head_txt">
+                    Selected Works
+                </h1>
+
+                <p class="works-text_about">
+                    Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies 
+                    velit elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut suspendisse viverra ornare sit venenatis
+                </p>
+
+                <div class="works-main">
+                    <img src="./imgs/work-img1.png" alt="" id="first" data-aos="fade-up">
+                    <div class="works-about">
+                        <img src="./imgs/work-img2.png" alt="" data-aos="fade-up">
+
+                        <div class="works-about_txt">
+                            <h1 data-aos="fade-up">Louis Vuitton</h1>
+
+                            <p data-aos="fade-up">
+                                Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies 
+                                velit elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut suspendisse viverra ornare sit venenatis
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="works-buttons">
+                        <button id="btn-first">
+                            View Case
+                        </button>
+
+                        <div class="works-buttons_slide">
+                            <button>Next</button>
+
+                            <button>Prev</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why-us">
+                <div class="why-us_main">
+                    <h1 id="whyTxt">
+                        Why Us
+                    </h1>
+
+                    <p>
+                        Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus 
+                        ultricies velit elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut suspendisse viverra ornare sit venenatis
+                    </p>
+                </div>
+
+                <ul class="benefits">
+                    <li data-aos="fade-up">
+                        <img src="./imgs/eco.png" alt="">
+
+                        Eco friendly
+                    </li>
+                    <li data-aos="fade-up">
+                        <img src="./imgs/settings.png" alt="">    
+                        
+                        Eco friendly
+                    </li>
+                    <li data-aos="fade-up">
+                        <img src="./imgs/support.png" alt="">
+                        
+                        24/7 support
+                    </li>
+                </ul>
+
+                <div class="why-us_txt" data-aos="fade-up">
+                    Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies 
+                    velit elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut suspendisse 
+                    viverra ornare sit venenatis
+                </div>
+            </section>
+
+            <section class="blogs">
+                <div class="blog-main">
+                    <h1 id="blogHead">Lataste Blogs</h1>
+
+                    <ul class="blog-cards">
+                        <li data-aos="fade-up">
+                            <img src="./imgs/blog3.png" alt="">
+
+                            <p>Emu facilisi posuere ut at cras non ipsum proin</p>
+                        </li>
+
+                        <li data-aos="fade-up">
+                            <img src="./imgs/blog2.png" alt="">
+
+                            <p>Emu facilisi posuere ut at cras non ipsum proin</p>
+                        </li>
+
+                        <li data-aos="fade-up">
+                            <img src="./imgs/blog1.png" alt="">
+
+                            <p>Emu facilisi posuere ut at cras non ipsum proin</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="clients">
+                <ul class="clients-main">
+                    <li>
+                        <img src="./imgs/amaz.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./imgs/be.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./imgs/google.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./imgs/linked.png" alt="">
+                    </li>
+                </ul>
+
+                <h1 class="clients-txt">
+                    Our Clients
+                </h1>
+            </section>
+
+        <script>
+        AOS.init();
+      </script>
+
+        </div>
+    </div>
+</body>
+</html>
